@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0056g0000036DuRAAU",
+    "createdByName": "karna bharata",
+    "createdDate": "2020-01-28T03:33:42.000Z",
+    "fileName": "classes/FirstApexCLass.cls",
+    "fullName": "FirstApexCLass",
+    "id": "01p6g00000IH9tbAAD",
+    "lastModifiedById": "0056g0000036DuRAAU",
+    "lastModifiedByName": "karna bharata",
+    "lastModifiedDate": "2020-01-28T03:34:07.000Z",
+    "manageableState": "unmanaged",
+    "type": "ApexClass"
+  }
+}
