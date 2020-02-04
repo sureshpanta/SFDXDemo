@@ -5,21 +5,5 @@
     <members>FirstApexClass</members>
     <members>SecondApexClass</members>
   </types>
-  <types>
-    <name>CustomObject</name>
-    <members>Account</members>
-  </types>
-  <types>
-    <name>CustomField</name>
-    <members>Account</members>
-  </types>
-  <types>
-    <name>ListView</name>
-    <members>Account</members>
-  </types>
-  <types>
-    <name>WebLink</name>
-    <members>Account</members>
-  </types>
   <version>47.0</version>
 </Package>
