@@ -44,7 +44,7 @@ node {
 				rmsg = sh returnStdout: true, script: "${toolbelt} force:source:deploy --manifest manifest/package.xml -u ${HUB_ORG}"
 			}else{
 				println('is Unix False')
-			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:convert -d .mkdir"
+			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:convert -d mkdir"
 				println('After Converting')
 			   //rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy --manifest manifest/package.xml -u ${HUB_ORG}"
 			rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy --manifest mkdir/package.xml -u ${HUB_ORG}"
