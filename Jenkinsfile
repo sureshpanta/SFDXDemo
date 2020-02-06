@@ -40,8 +40,10 @@ node {
 			
 			// need to pull out assigned username
 			if (isUnix()) {
+				println('is Unix True')
 				rmsg = sh returnStdout: true, script: "${toolbelt} force:source:deploy --manifest manifest/package.xml -u ${HUB_ORG}"
 			}else{
+				println('is Unix False')
 			   rmsg = bat returnStdout: true, script: "\"${toolbelt}\" force:source:deploy --manifest manifest/package.xml -u ${HUB_ORG}"
 			}
 			  
